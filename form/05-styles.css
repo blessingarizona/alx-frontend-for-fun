@@ -875,26 +875,28 @@ html {
         margin: 0;
         background-color: var(--color-white);
     }
-    .form-group .focus-within{
+    .form-group:focus-within{
         background-color: var(--color-light-grey);
-        transition: 3s;
+        transition: 0.3s;
     }
     /* Form field
 ============================= */
     .form-field-container{
         position: relative;
-        font-style: normal;
     }
+    .form-field-icon {
+        font-style: normal;
+      }
     /* Form help
 ============================= */
     .form-group .form-help{
         margin: 0;
         line-height: 1.3;
-        letter-spacing: .019rem;
+        letter-spacing: 0.019rem;
         color: var(--color-dark-grey);
         font-size: var(--font-size-small);
         max-height: 0;
-        transition: .3s;
+        transition: 0.3s;
         overflow: hidden;
     }
     .form-group:focus-within .form-help {
